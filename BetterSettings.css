@@ -23,7 +23,7 @@
   max-width: 100%;
 }
 .bd-sidebar-header {
-    margin-top: -984px;
+    margin-top: -971px;
 }
 .socialLinks-3jqNFy,
 .info-1VyQPT {
@@ -55,4 +55,8 @@
 
 .animating-rRxada.stop-animations {
     z-index: 100 !important;
+}
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    margin-top: 741px;
 }
