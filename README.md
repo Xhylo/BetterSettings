@@ -1,0 +1,2 @@
+# BetterSettings
+BetterSettings
