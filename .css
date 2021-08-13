@@ -1,0 +1,55 @@
+[aria-label="USER_SETTINGS"] .side-8zPYf6 {
+  height: 1300px!important;
+  display: inherit;
+  width: auto;
+  grid-template-columns: auto;
+}
+[aria-label="USER_SETTINGS"] .item-PXvHYJ {
+  text-align: left;
+  margin-top: -7px
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e {
+  width: 220px;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .side-8zPYf6 {
+  height: 1340px;
+  margin-top: 210px;
+}
+[aria-label="USER_SETTINGS"] .header-2RyJ0Y {
+  text-align: left;
+  grid-column: 1;
+  font-size: 11px!important;
+  height: 40px;
+  color: rgba(221, 221, 221, 0.877);
+}
+[aria-label="USER_SETTINGS"] .separator-gCa7yv {
+  height: 2px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  display:none;
+}
+[aria-label="USER_SETTINGS"] .contentRegion-3nDuYy {
+  flex: 100%;
+}
+[aria-label="USER_SETTINGS"] .contentColumn-2hrIYH, [aria-label="USER_SETTINGS"] .customColumn-Rb6toI, [aria-label="USER_SETTINGS"] .sidebarScrollable-1qPI87 + .content-1rPSz4, [aria-label="USER_SETTINGS"] .customScroller-26gWhv > div {
+  max-width: 100%;
+}
+.bd-sidebar-header {
+    margin-top: -984px;
+}
+.socialLinks-3jqNFy,
+.info-1VyQPT {
+    display:none;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .side-8zPYf6{
+  flex: 100%;
+}
+.sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP {
+    overflow: inherit!important;
+}
+.field-1HUseB > div > div > div {
+  filter: blur(3px);
+}
+.field-1HUseB > div > div > div:hover {
+  filter: blur(0);
+}
