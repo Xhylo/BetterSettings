@@ -1,62 +1,35 @@
-[aria-label="USER_SETTINGS"] .item-PXvHYJ {
-  margin-top: -7px
+/* USER SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ * {
+    order: 0;
 }
-[aria-label="USER_SETTINGS"] .sidebar-CFHs9e {
-  width: 220px;
+/* BETTERDISCORD SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: -1;
 }
-[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .side-8zPYf6 {
-  height: 1340px;
-  margin-top: 210px!important;
+/* CHANGELOG/HYPESQUAD/DEVELOPER */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: 5;
 }
-[aria-label="USER_SETTINGS"] .header-2RyJ0Y {
-  font-size: 11px!important;
-  height: 40px!important;
-  color: rgba(221, 221, 221, 0.877)!important;
-}
-.separator-gCa7yv {
-  display:none;
-}
-[aria-label="USER_SETTINGS"] .contentRegion-3nDuYy {
-  flex: 100%;
-}
-[aria-label="USER_SETTINGS"] .contentColumn-2hrIYH, [aria-label="USER_SETTINGS"] .customColumn-Rb6toI, [aria-label="USER_SETTINGS"] .sidebarScrollable-1qPI87 + .content-1rPSz4, [aria-label="USER_SETTINGS"] .customScroller-26gWhv > div {
-  max-width: 100%;
-}
-.bd-sidebar-header {
-    margin-top: -971px;
-}
-.socialLinks-3jqNFy,
-.info-1VyQPT {
-    display:none;
-}
-[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .side-8zPYf6{
-  flex: 100%;
-}
-.sidebarRegion-VFTUkN, .sidebarRegionScroller-3MXcoP {
-    overflow: inherit!important;
-}
-.field-1HUseB > div > div > div {
-  filter: blur(3px);
-}
-.field-1HUseB > div > div > div:hover {
-  filter: blur(0);
-}
-/*Credits for Tropical#4355 for his snippet*/
-.layer-3QrUeG {
-    transform: none !important;
-    opacity: 1 !important;
-}
-
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
-    pointer-events: auto !important;
-    will-change: unset;
-}
-
-.animating-rRxada.stop-animations {
-    z-index: 100 !important;
-}
+/* LOGOUT */
 .layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
 .layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
-    margin-top: 741px;
+    order: 6;
+}
+/* APP SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: 0;
+}
+/* ACTIVITY SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: 4;
+}
+.header-2RyJ0Y {
+  color: rgb(78, 77, 77);
+  font-weight: bolder;
+  font-size: 12px;
 }
